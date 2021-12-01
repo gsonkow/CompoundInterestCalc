@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	  <meta charset="utf-8">
+	  <meta name="viewport" content="width=device-width">
+	  <title>Compound Interest Calculator</title>
+	  <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+	  <h1>Compound Interest Calculator</h1>
+	  <div id="calculator">
+		  Principal ($): <input type="number" id="principal">
+      Interest Rate (%): <input type="number" id="interest">
+      Times Compounded per Year: <input type="number" id="timesCompounded">
+      Number of Years: <input type="number" id="years">
+      Money Earned: <span id="earnedCash"></span>
+      Total Money: <span id="totalCash"></span>
+      Time Past: <span id="yearPastValue">
+	  </div>
+    <input type="range" value="100" min="0" max="100" id="timePast">
+    <img src="https://freesvg.org/img/compound_interest.png" alt="money growing with time" class="img">
+    <footer>By Gabriel Sonkowsky</footer>
+    <script src="script.js"></script>
+  </body>
+</html>
